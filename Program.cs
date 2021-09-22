@@ -11,9 +11,9 @@ namespace helloworld
         static void Main(string[] args)
         {
             var leeftijden = new Dictionary<string, int>(){
-                {"sytze", 11}, {"louise", 7}
+                {"John smith", 11}, {"Johnny smithy", 7}
             };
-            string[] mensen = new string[]{"louise", "sytze"};
+            string[] mensen = new string[]{"John smith", "Johnny smithy"};
             while (true) {
                 Random random = new Random();
                 var mens = mensen[random.Next(2)];
